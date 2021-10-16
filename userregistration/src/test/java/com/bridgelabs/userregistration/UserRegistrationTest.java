@@ -19,13 +19,13 @@ public class UserRegistrationTest {
 	     */
 	    @Test
 	    public void givenFirstName_WhenProper_ShouldReturnTrue() {
-	        boolean result = userRegistration.firstName("Utkarsh");
+	        boolean result = userRegistration.firstName("Sreekanth");
 	        Assert.assertEquals(true, result);
 	    }
 
 	    @Test
 	    public void givenFirstName_WhenNotProper_ShouldReturnFlase() {
-	        boolean result = userRegistration.firstName("utkarsh");
+	        boolean result = userRegistration.firstName("sreekanth");
 	        Assert.assertEquals(false, result);
 	    }
 
@@ -34,13 +34,13 @@ public class UserRegistrationTest {
 	     */
 	    @Test
 	    public void givenLastName_WhenProper_ShouldReturnTrue() {
-	        boolean result = userRegistration.lastName("Mishra");
+	        boolean result = userRegistration.lastName("Sree");
 	        Assert.assertEquals(true, result);
 	    }
 
 	    @Test
 	    public void givenLastName_WhenNotProper_ShouldReturnFalse() {
-	        boolean result = userRegistration.lastName("mishra");
+	        boolean result = userRegistration.lastName("sree");
 	        Assert.assertEquals(false, result);
 
 	    }
