@@ -15,13 +15,13 @@ public class UserRegistrationTest {
 
 	    @Test
 	    public void givenFirstName_WhenProper_ShouldReturnTrue() {
-	        boolean result = userRegistration.firstName("Utkarsh");
+	        boolean result = userRegistration.firstName("sreekanth");
 	        Assert.assertEquals(true, result);
 	    }
 
 	    @Test
 	    public void givenFirstName_WhenNotProper_ShouldReturnFlase() {
-	        boolean result = userRegistration.firstName("utkarsh");
+	        boolean result = userRegistration.firstName("sreekanth");
 	        Assert.assertEquals(false, result);
 	    }
 }
